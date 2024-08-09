@@ -1,0 +1,94 @@
+:root {
+    --preto: #000000;
+    --roxo: #683BA8;
+    --roxo-claro:#C89DE6;
+    --purple-dark: #9b5de5;
+    --branco-roxo: #F2EDFA;
+    --verde-claro:#E4F4DB;
+    --gray: #f8f9fa;
+    --gray-dark: #343a40;
+}
+
+body {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 1% 0% 0% 2%;
+}
+
+h1 {
+    color: var(--branco-roxo);
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.BCriptografar {
+    width: 35.62rem;;
+    height: 7.5rem;
+    background-color: var(--branco-roxo);
+    border-radius: 0.6rem;
+    padding: 1.25rem;
+    box-shadow: 0rem 0rem 0.25rem rgba(0, 0, 0, 0.25);
+}	
+
+.BDescriptografar {
+    width: 35.62rem;;
+    height: 7.5rem;
+    background-color: var(--branco-roxo);
+    border-radius: 0.6rem;
+    padding: 1.25rem;
+    box-shadow: 0rem 0rem 0.25rem rgba(0, 0, 0, 0.25);
+}	
+
+.alerta {
+    margin: 2%;
+    color: var(--branco-roxo);
+    font-size: 1.25rem;
+}
+
+.boxBotoes {
+    display: flex;
+    margin: 2rem;
+    justify-content: flex-start;
+}
+
+.botaoCriptografar {
+    width: 20.5rem;
+    height: 4.18rem;
+    background-color: var(--roxo);
+    color: var(--branco-roxo);
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.botaoDescriptografar {
+    width: 20.5rem;
+    height: 4.18rem;
+    background-color: var(--roxo);
+    color: var(--branco-roxo);
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.autora {
+    text-align: end;
+    font-size: 1.18rem;
+    color: var(--branco-roxo);
+}
