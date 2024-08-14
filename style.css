@@ -1,0 +1,175 @@
+:root {
+    --preto: #000000;
+    --roxo: #683BA8;
+    --roxo-claro:#C89DE6;
+    --purple-dark: #9b5de5;
+    --branco-roxo: #F2EDFA;
+    --verde-claro:#E4F4DB;
+    --gray: #f8f9fa;
+    --gray-dark: #343a40;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    color: var(--branco-roxo);
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    height: 100vh;
+}
+
+.parteI {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50%;
+    margin-left: 2%;
+    gap: 21.87rem;
+}
+
+.mensagemInicial {
+    color: var(--purple-dark);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.6rem;
+    outline: 0;
+    resize: none;
+}
+
+.alertaETexto {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.alerta {
+    color: var(--branco-roxo);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    gap: 0.12rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    height: auto;
+    width: auto;
+    padding-right: 5px;
+}
+
+.botoes {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2%;
+}
+
+.botaoCriptografar {
+    width: 20.5rem;
+    height: 4.18rem;
+    background-color: var(--roxo);
+    color: var(--branco-roxo);
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.botaoDescriptografar {
+    width: 20.5rem;
+    height: 4.18rem;
+    background-color: var(--roxo);
+    color: var(--branco-roxo);
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.parteII {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 2rem;
+    text-align: center;
+    height: 45rem;
+    width: 25rem;
+    /* margin-top: 2%; */
+    gap: 4%;
+    background-color: var(--branco-roxo);
+    color: var(--purple-dark);
+}
+
+.img_msgnaoidentificada {
+    width: 20rem;
+}
+
+.msgnaoidentificada{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.paragrafo {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.mensagemFinal {
+    display: none;
+    padding: 12.5rem 3.12rem;
+    color: var(--purple-dark);
+    font-size: 1.5rem;
+    border: none;
+    height: 12rem;
+    outline: 0;
+    resize: none;
+    list-style-type: none;
+}
+
+.botaoCopiar {
+    display: none;
+    width: 2.5rem;
+    height: 5rem;
+    background-color: var(--roxo);
+    color: var(--branco-roxo);
+    margin-bottom: auto;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    font-size: 1.18rem;
+    position: fixed;
+    width: 100%;
+    background-color: var(--purple-dark);
+    color: var(--branco-roxo);
+}
+
+/* .autora {
+    text-align: end;
+    font-size: 1.18rem;
+    color: var(--branco-roxo);
+} */
