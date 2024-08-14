@@ -139,6 +139,7 @@ main {
     color: var(--purple-dark);
     font-size: 1.5rem;
     border: none;
+    width: 15rem;
     height: 12rem;
     outline: 0;
     resize: none;
@@ -147,8 +148,8 @@ main {
 
 .botaoCopiar {
     display: none;
-    width: 2.5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 3rem;
     background-color: var(--roxo);
     color: var(--branco-roxo);
     margin-bottom: auto;
