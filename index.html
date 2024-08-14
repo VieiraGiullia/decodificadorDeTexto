@@ -7,28 +7,38 @@
     <title>Decodificador</title>
 </head>
 <body> 
-    <main>
+    <header>
         <h1>Decodificador  de texto</h1>
+    </header>
+    <main>
 
-        <form class="boxes">
-            <textarea class="BCriptografar">Digite aqui sua mensagem</textarea>
-            <textarea class="BDescriptografar">
-            Nenhuma mensagem encontrada
-            Digite um texto que você deseja criptografar ou descriptografar.
-            </textarea>
-        </form>
+        <section class="parteI">
+            <textarea class="mensagemInicial" cols="40" rows="4" placeholder="Digite aqui sua mensagem"></textarea>
 
-        <!-- <div class="semMensagem">
-                    <p>Nenhuma mensagem encontrada</p>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
-                </div> -->
+            <div class="alertaEText">
+                <div class="alerta">
+                    <img class="icon" src="img/alertaIcon.png" alt="Icone de alerta/atencao">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </div>
+                
+                <div class="botoes">
+                <button class="botaoCriptografar">Criptografar</button>
+                <button class="botaoDescriptografar">Descriptografar</button>
+                </div>
+            </div>
+        </section>
 
-        <p class="alerta">Apenas letras minúsculas e sem acento.</p>
-
-        <div class="boxBotoes">
-            <button class="botaoCriptografar">Criptografar</button>
-            <button class="botaoDescriptografar">Descriptografar</button>
-        </div>
+        <section class="parteII">
+            <div class="mensagem">
+                <img class="img_msgnaoidentificada" src="img/msgnaoidentificada.png" alt="iconeAviso">
+                <div class="msgnaoidentificada">
+                    <p class="textoPrincipal">Nenhuma mensagem encontrada</p>
+                    <p class="paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+            <textarea class="mensagemFinal" cols="40" rows="10" ></textarea>
+            <button class="botaoCopiar">Copiar</button>
+        </section>
 
         <footer class="autora">Por Giullia Vieira</footer>
     </main>
