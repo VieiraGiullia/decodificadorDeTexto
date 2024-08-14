@@ -135,12 +135,12 @@ main {
 
 .mensagemFinal {
     display: none;
-    padding: 12.5rem 3.12rem;
+/*     padding: 12.5rem 3.12rem; */
     color: var(--purple-dark);
     font-size: 1.5rem;
     border: none;
-    width: 15rem;
-    height: 12rem;
+    width: 20rem;
+    height: 35rem;
     outline: 0;
     resize: none;
     list-style-type: none;
